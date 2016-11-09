@@ -1,1 +1,97 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_forward" id="22" x="35" y="20">
+    <next>
+      <block type="robot_delay" id="31" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="38">
+            <field name="NUM">538</field>
+          </block>
+        </value>
+        <next>
+          <block type="movement_stop" id="107">
+            <next>
+              <block type="robot_delay" id="115" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="143">
+                    <field name="NUM">777</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_drawtext" id="97">
+                    <field name="TEXT">Hey, wanna hear a joke?</field>
+                    <next>
+                      <block type="robot_delay" id="145" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="152">
+                            <field name="NUM">1000</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="movement_stop" id="199">
+                            <next>
+                              <block type="robot_delay" id="204" inline="true">
+                                <value name="DELAY">
+                                  <block type="math_number" id="211">
+                                    <field name="NUM">99</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="oled_drawtext" id="174">
+                                    <field name="TEXT">Why did the boy eat his homework?</field>
+                                    <next>
+                                      <block type="robot_delay" id="176" inline="true">
+                                        <value name="DELAY">
+                                          <block type="math_number" id="218">
+                                            <field name="NUM">1000</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="movement_stop" id="229">
+                                            <next>
+                                              <block type="robot_delay" id="237" inline="true">
+                                                <value name="DELAY">
+                                                  <block type="math_number" id="288">
+                                                    <field name="NUM">99</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="oled_drawtext" id="268">
+                                                    <field name="TEXT">Cuz his teacher said it was a peice of cake XDDD</field>
+                                                    <next>
+                                                      <block type="robot_delay" id="290" inline="true">
+                                                        <value name="DELAY">
+                                                          <block type="math_number" id="316">
+                                                            <field name="NUM">1000</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="movement_stop" id="279"></block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
